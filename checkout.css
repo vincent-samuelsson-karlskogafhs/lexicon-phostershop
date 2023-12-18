@@ -1,0 +1,54 @@
+h1 {
+  color: var(--white);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.checkout {
+  color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 2rem;
+  row-gap: 0.5rem;
+  padding-inline: 4rem;
+  margin-bottom: 4rem;
+}
+
+.checkout .middle {
+  text-align: center;
+}
+
+.checkout .last {
+  text-align: end;
+}
+
+.checkout .head-row {
+  background-color: var(--red);
+  opacity: 0.8;
+}
+
+.checkout .total-row {
+  border-top: 1px solid var(--white);
+  display: flex;
+  font-weight: 700;
+  grid-column: 1/4;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 4rem;
+  margin-bottom: 4rem;
+}
+
+.checkout-btn {
+  background-color: var(--red);
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 5px 10px;
+}

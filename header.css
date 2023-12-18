@@ -1,0 +1,15 @@
+.hero {
+  background-image: url(./assets/poster.png);
+  background-position: bottom;
+  height: 500px;
+
+  /* rem is another unit like px. 1rem = 16px*/
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.nav-menu {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}

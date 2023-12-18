@@ -1,0 +1,28 @@
+.cards {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.card {
+  width: 300px;
+}
+
+.card figure img {
+  width: 100%;
+}
+
+.card .text {
+  margin-bottom: 2rem;
+}
+
+.card .btn {
+  background-color: var(--red);
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  padding: 5px 10px;
+}
